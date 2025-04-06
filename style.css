@@ -864,7 +864,7 @@ footer span a:hover{
     #propic{
         width: 550px;
         height: 600px;
-        display: inline-block;
+        
     }
 }
 
@@ -872,6 +872,7 @@ footer span a:hover{
     #propic{
         width: 450px;
         height: 500px;
+        
         
     }
 }
@@ -904,6 +905,18 @@ footer span a:hover{
     #propic{
         width: 220px;
         height: 250px;
+        
+    }
+}
+
+@media (max-width: 500px){
+    #propic{
+        width: 220px;
+        height: 250px;
+        position: absolute;
+        bottom: auto;
+        top: 70px;
+        left: 70px;
         
     }
 }
