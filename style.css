@@ -848,6 +848,7 @@ footer span a:hover{
     #propic{
         width: 650px;
         height: 700px;
+        display: block;
         
     }
 }
@@ -856,14 +857,18 @@ footer span a:hover{
     #propic{
         width: 600px;
         height: 650px;
+        display: block;
+        visibility: hidden;
         
     }
 }
 
 @media (max-width: 1368px){
     #propic{
-        width: 550px;
+        width: 500px;
         height: 600px;
+        display: block;
+        
         
     }
 }
@@ -881,6 +886,8 @@ footer span a:hover{
     #propic{
         width: 350px;
         height: 400px;
+        
+        
         
     }
 }
@@ -905,6 +912,7 @@ footer span a:hover{
     #propic{
         width: 220px;
         height: 250px;
+        
         
     }
 }
