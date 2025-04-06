@@ -150,6 +150,17 @@ html{
    
 }
 
+
+#propic{
+   
+    position: absolute;
+    top: 120px;
+    right: 170px;
+    width: 690px;
+    height: 750px;
+  
+  }
+
 .home .max-width{
     margin: auto 0 auto 40px;
 }
@@ -821,12 +832,83 @@ footer span a:hover{
 
 /* responsive media query start */
 
-@media (max-width: 1440px){
-    .profile-pic{
-        height: auto;
-        max-width: 100%;
+/*
+#propic{
+   
+  position: absolute;
+  top: 120px;
+  right: 170px;
+  width: 690px;
+  height: 750px;
+
+}
+*/
+
+@media (max-width: 1515px){
+    #propic{
+        width: 650px;
+        height: 700px;
+        
     }
 }
+
+@media (max-width: 1482px){
+    #propic{
+        width: 600px;
+        height: 650px;
+        
+    }
+}
+
+@media (max-width: 1368px){
+    #propic{
+        width: 550px;
+        height: 600px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 1338px){
+    #propic{
+        width: 450px;
+        height: 500px;
+        
+    }
+}
+
+@media (max-width: 1248px){
+    #propic{
+        width: 350px;
+        height: 400px;
+        
+    }
+}
+
+@media (max-width: 1165px){
+    #propic{
+        width: 250px;
+        height: 280px;
+        
+    }
+}
+
+@media (max-width: 563px){
+    #propic{
+        width: 250px;
+        height: 270px;
+        
+    }
+}
+
+@media (max-width: 546px){
+    #propic{
+        width: 220px;
+        height: 250px;
+        
+    }
+}
+
+
 
 
 
@@ -990,13 +1072,4 @@ footer span a:hover{
     .home .home-content .text-3{  
         font-size: 27px;            
     }
-}
-#propic{
-   
-  position: absolute;
-  top: 120px;
-  right: 170px;
-  width: 690px;
-  height: 750px;
-
 }
