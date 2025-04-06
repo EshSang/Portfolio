@@ -917,18 +917,6 @@ footer span a:hover{
     }
 }
 
-@media (max-width: 500px){
-    #propic{
-        width: 170px;
-        height: 190px;
-        position: absolute;
-        bottom: auto;
-        top: 90px;
-        left: 90px;
-        
-    }
-}
-
 
 
 
