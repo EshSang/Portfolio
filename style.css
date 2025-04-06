@@ -868,6 +868,7 @@ footer span a:hover{
         width: 500px;
         height: 600px;
         display: block;
+        visibility: hidden;
         
         
     }
@@ -877,6 +878,7 @@ footer span a:hover{
     #propic{
         width: 450px;
         height: 500px;
+        visibility: hidden;
         
         
     }
@@ -886,6 +888,7 @@ footer span a:hover{
     #propic{
         width: 350px;
         height: 400px;
+        visibility: hidden;
         
         
         
@@ -896,6 +899,7 @@ footer span a:hover{
     #propic{
         width: 250px;
         height: 280px;
+        visibility: hidden;
         
     }
 }
@@ -904,6 +908,7 @@ footer span a:hover{
     #propic{
         width: 250px;
         height: 270px;
+        visibility: hidden;
         
     }
 }
@@ -912,6 +917,7 @@ footer span a:hover{
     #propic{
         width: 220px;
         height: 250px;
+        visibility: hidden;
         
         
     }
