@@ -923,6 +923,17 @@ footer span a:hover{
     }
 }
 
+@media (max-width: 500px){
+    #propic{
+        width: 220px;
+        height: 250px;
+        visibility: hidden;
+        
+        
+    }
+}
+
+
 
 
 
