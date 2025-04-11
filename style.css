@@ -844,6 +844,55 @@ footer span a:hover{
 }
 */
 
+
+/* Skill box responsive */
+
+/*
+.skill-box-align{
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  }
+  
+  .skill-box{
+      height: 100px;
+      width: 180px;
+      border: #c5c5c5;
+      border-style: solid;
+      border-radius: 10px;
+      border-width: thin
+  }*/
+
+
+  @media (max-width: 1140px){
+    .skill-box-align{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+}
+
+@media (max-width: 1080px){
+    .skill-box-align{
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+}
+
+@media (max-width: 735px){
+    .skill-box-align{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 1515px){
     #propic{
         width: 650px;
@@ -963,6 +1012,14 @@ footer span a:hover{
        padding: 0 50px;
 }
 }
+
+
+
+@media (max-width: 991px){
+    .skill-box-align{
+       padding: 0 50px;
+}
+
 
 
 
@@ -1098,4 +1155,5 @@ footer span a:hover{
     .home .home-content .text-3{  
         font-size: 27px;            
     }
+}
 }
