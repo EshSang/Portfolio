@@ -883,6 +883,11 @@ footer span a:hover{
         grid-template-columns: 1fr 1fr;
         
     }
+
+    .skill-box{
+        height: 80px;
+        width: 140px;
+    }
 }
 
 
