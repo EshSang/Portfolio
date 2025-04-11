@@ -881,6 +881,8 @@ footer span a:hover{
 @media (max-width: 735px){
     .skill-box-align{
         grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-gap: 0.5rem;
         
     }
 
