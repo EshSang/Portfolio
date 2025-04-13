@@ -887,7 +887,7 @@ footer span a:hover{
     }
 
     .skill-box{
-        height: 80px;
+        height: 100px;
         width: 140px;
     }
 }
@@ -902,7 +902,7 @@ footer span a:hover{
     }
 
     .skill-box{
-        height: 80px;
+        height: 100px;
         width: 140px;
     }
 }
@@ -916,7 +916,7 @@ footer span a:hover{
     }
 
     .skill-box{
-        height: 80px;
+        height: 100px;
         width: 140px;
     }
 }
@@ -931,7 +931,7 @@ footer span a:hover{
     }
 
     .skill-box{
-        height: 80px;
+        height: 100px;
         width: 140px;
     }
 }
@@ -946,7 +946,7 @@ footer span a:hover{
     }
 
     .skill-box{
-        height: 80px;
+        height: 100px;
         width: 140px;
     }
 }
@@ -960,10 +960,36 @@ footer span a:hover{
     }
 
     .skill-box{
-        height: 80px;
-        width: 140px;
+        height: 100px;
+        width: 130px;
     }
 }
+
+
+
+@media (max-width: 300px){
+    .skill-box-align{
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-gap: 0.5rem;
+        
+    }
+
+    .skill-box{
+        height: 100px;
+        width: 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
