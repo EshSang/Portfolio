@@ -876,47 +876,11 @@ footer span a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
 /* responsive media query start */
 
-/*
-#propic{
-   
-  position: absolute;
-  top: 120px;
-  right: 170px;
-  width: 690px;
-  height: 750px;
-
-}
-*/
 
 
 /* Skill box responsive */
-
-/*
-.skill-box-align{
-    display: grid;
-    grid-gap: 1.5rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-  }
-  
-  .skill-box{
-      height: 100px;
-      width: 180px;
-      border: #c5c5c5;
-      border-style: solid;
-      border-radius: 10px;
-      border-width: thin
-  }*/
 
 
   @media (max-width: 1140px){
@@ -1285,12 +1249,7 @@ footer span a:hover{
     }
 }
 
-/* @media (max-width: 1104px){
-    .home .max-width{
-       margin-left: 0px;
-    }
-}
- */
+
 
 @media (max-width: 991px){
     .max-width{
@@ -1438,39 +1397,6 @@ footer span a:hover{
     }
 }
 
-/*Contact box responsive*/
-
-/*
-.contact-box-align{
-    display: grid;
-    grid-gap: 1.2rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
-  }
-  
-  .contact-box{
-      height: 80px;
-      width: 220px;
-      border: #c5c5c5;
-      border-style: solid;
-      border-radius: 10px;
-      border-width: thin
-  }
-  
-  .contact-box:hover{
-      border-color: #a09b9b;
-  }
-  
-  .contact-box-textalign{
-      text-align: center;
-      padding-top: 5px;
-      padding-bottom: 10px;
-      font-size: 15px;
-      display:block;
-      margin:auto;
-      color: #111;
-  }
-*/
 
 
 @media (max-width: 1275px){
@@ -1548,24 +1474,6 @@ footer span a:hover{
 }
 
 
-/*
-.teams .carousel .card .box{
-        display:inline-block;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        transition: all 0.3s ease;
-    }
-    
-    .teams .carousel .card .text{
-        font-size: 18px;
-        font-weight: 500;
-        margin: 10px 0 7px 0;
-    }
-*/
-
-/*Project Responsive*/
 
 
 @media (max-width: 1000px) {
