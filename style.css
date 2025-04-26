@@ -562,7 +562,7 @@ section .title::after{
   
   .project-box{
       height: 300px;
-      width: 450px;
+      width: 500px;
       border: #575656;
       border-style: solid;
       border-radius: 10px;
@@ -1088,8 +1088,6 @@ footer span a:hover{
 }
 
 
-
-
 @media (max-width: 440px){
     .project-box{
         height: 220px;
@@ -1136,10 +1134,6 @@ footer span a:hover{
     }
     
     }
-
-
-/*fsddfsd*/
-
 
 
 @media (max-width: 1515px){
