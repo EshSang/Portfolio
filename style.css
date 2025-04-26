@@ -1090,7 +1090,7 @@ footer span a:hover{
 
 @media (max-width: 440px){
     .project-box{
-        height: 220px;
+        height: 250px;
         width: 350px;
         border: #575656;
         border-style: solid;
