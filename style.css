@@ -524,10 +524,16 @@ section .title::after{
 
 
 
-/* teams section styling */
-.teams .title::after{
-    content: "what did me";
+/*
+
+.contact .title::after{
+    content: "Get in Touch";
 }
+ 
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+*/
 
 .teams{
     color: #fff;
@@ -540,8 +546,41 @@ section .title::after{
 
 .teams .title::after{
     background: #111;
-    content: "What I Provide";
+    content: "What I Did";
 }
+
+.teams .teams-teams .column{
+    width: calc(50% - 30px);
+}
+
+
+.project-box-align{
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr ;
+  }
+  
+  .project-box{
+      height: 300px;
+      width: 450px;
+      border: #575656;
+      border-style: solid;
+      border-radius: 10px;
+      border-width: thin
+  }
+
+  .project-box-textalign{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
+  }
+
+ .project-box .paragraph{
+    font-size: 13px;
+    text-align: justify;
+    padding: 20px;
+}
+
 
 .teams .carousel .card{
     background: #222;
@@ -550,19 +589,35 @@ section .title::after{
     text-align: center;
     transition: all 0.3s ease;
 }
+
 .img1{
-    width: 200px;
-    height: 200px;
+    /*width: 50px;
+    height: 50px;
     display: grid;
     grid-gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
-    align-content: center;
+    align-items: center;
+    gap: 20px;*/
 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    margin-top: 10px;
+
+}
+
+
+.img-content{
+    width: 30px;
+    height: 30px;
 }
 
 .paragraph{
     font-size: 15px;
     text-align: justify;
+    
+    
 }
 
 /* .teams .carousel .card img{
@@ -1010,15 +1065,116 @@ footer span a:hover{
 }
 
 
+@media (max-width: 1015px){
+
+.project-box-align{
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 520px){
+.project-box{
+    height: 250px;
+    width: 380px;
+    border: #575656;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: thin
+}
+
+.project-box-textalign{
+  text-align: center;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.project-box .paragraph{
+  font-size: 10px;
+  text-align: justify;
+  padding: 20px;
+}
+
+.img1{
+    /*width: 50px;
+    height: 50px;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;*/
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    margin-top: 10px;
+
+}
+
+
+.img-content{
+    width: 20px;
+    height: 20px;
+}
+
+}
 
 
 
 
+@media (max-width: 440px){
+    .project-box{
+        height: 220px;
+        width: 350px;
+        border: #575656;
+        border-style: solid;
+        border-radius: 10px;
+        border-width: thin
+    }
+    
+    .project-box-textalign{
+      text-align: center;
+      font-weight: 600;
+      padding-top: 20px;
+    }
+    
+    .project-box .paragraph{
+      font-size: 9px;
+      text-align: justify;
+      padding: 20px;
+    }
+    
+    .img1{
+        /*width: 50px;
+        height: 50px;
+        display: grid;
+        grid-gap: 1.5rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        gap: 20px;*/
+    
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        gap: 20px; 
+        margin-top: 10px;
+    
+    }
+    
+    
+    .img-content{
+        width: 20px;
+        height: 20px;
+    }
+    
+    }
 
 
-
-
-
+/*fsddfsd*/
 
 
 
@@ -1411,17 +1567,11 @@ footer span a:hover{
 
 /*Project Responsive*/
 
-@media (max-width: 992px) {
-    .teams-content .card {
-        flex: 1 1 45%; /* 2 cards per row on tablets */
+
+@media (max-width: 1000px) {
+    .teams .carousel .card .box {
+      flex-direction: column;
     }
+
 }
-
-@media (max-width: 600px) {
-    .teams-content .card {
-        flex: 1 1 100%; /* 1 card per row on mobile */
-    }
-}
-
-
 }
